@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Više o</value>
+  </data>
+  <data name="Adresa kancelarije:" xml:space="preserve">
+    <value>Adresa kancelarije:</value>
+  </data>
+  <data name="Adresa stanovanja:" xml:space="preserve">
+    <value>Adresa stanovanja:</value>
+  </data>
+  <data name="Broj" xml:space="preserve">
+    <value>Broj</value>
+  </data>
+  <data name="Broj ESPB bodova" xml:space="preserve">
+    <value>Broj ESPB bodova</value>
+  </data>
+  <data name="Broj indeksa" xml:space="preserve">
+    <value>Broj indeksa</value>
+  </data>
+  <data name="Broj lične karte" xml:space="preserve">
+    <value>Broj lične karte</value>
+  </data>
+  <data name="Broj telefona" xml:space="preserve">
+    <value>Broj telefona</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Zatvori</value>
+  </data>
+  <data name="DATUM" xml:space="preserve">
+    <value>DATUM</value>
+  </data>
+  <data name="Datum rođenja" xml:space="preserve">
+    <value>Datum rođenja</value>
+  </data>
+  <data name="Datum:" xml:space="preserve">
+    <value>Datum: </value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="Dodaj" xml:space="preserve">
+    <value>Dodaj</value>
+  </data>
+  <data name="Dodaj predmet" xml:space="preserve">
+    <value>Dodaj predmet</value>
+  </data>
+  <data name="Dodavanje predmeta" xml:space="preserve">
+    <value>Dodavanje predmeta</value>
+  </data>
+  <data name="DodavanjePredmetaStudentu" xml:space="preserve">
+    <value>DodavanjePredmetaStudentu</value>
+  </data>
+  <data name="DodavanjeProfesoraPredmetu" xml:space="preserve">
+    <value>DodavanjeProfesoraPredmetu</value>
+  </data>
+  <data name="Država" xml:space="preserve">
+    <value>Država</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Izmeni</value>
+  </data>
+  <data name="EMAIL" xml:space="preserve">
+    <value>EMAIL</value>
+  </data>
+  <data name="Email adresa" xml:space="preserve">
+    <value>Email adresa</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Engleski</value>
+  </data>
+  <data name="ESPB BODOVI" xml:space="preserve">
+    <value>ESPB BODOVI</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Fajl</value>
+  </data>
+  <data name="GODINA IZVODJENJA" xml:space="preserve">
+    <value>GODINA IZVOĐENJA</value>
+  </data>
+  <data name="GODINA STUDIJA" xml:space="preserve">
+    <value>GODINA STUDIJA</value>
+  </data>
+  <data name="Godina studija u kojoj se predmet izvodi" xml:space="preserve">
+    <value>Godina studija u kojoj se predmet izvodi</value>
+  </data>
+  <data name="Godina upisa" xml:space="preserve">
+    <value>Godina upisa</value>
+  </data>
+  <data name="Godine staža" xml:space="preserve">
+    <value>Godine staža</value>
+  </data>
+  <data name="Grad" xml:space="preserve">
+    <value>Grad</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Pomoć</value>
+  </data>
+  <data name="IME" xml:space="preserve">
+    <value>IME</value>
+  </data>
+  <data name="Ime1" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="INDEX" xml:space="preserve">
+    <value>INDEKS</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="Informacije" xml:space="preserve">
+    <value>Informacije</value>
+  </data>
+  <data name="Katedre" xml:space="preserve">
+    <value>Katedre</value>
+  </data>
+  <data name="Localization" xml:space="preserve">
+    <value>Lokalizacija</value>
+  </data>
+  <data name="NAZIV PREDMETA" xml:space="preserve">
+    <value>NAZIV PREDMETA</value>
+  </data>
+  <data name="Naziv predmeta1" xml:space="preserve">
+    <value>Naziv predmeta</value>
+  </data>
+  <data name="Naziv:" xml:space="preserve">
+    <value>Naziv: </value>
+  </data>
+  <data name="Način finansiranja" xml:space="preserve">
+    <value>Način finansiranja</value>
+  </data>
+  <data name="Nepolozeni" xml:space="preserve">
+    <value>Nepoloženi</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Novi</value>
+  </data>
+  <data name="Obrisi" xml:space="preserve">
+    <value>Obriši</value>
+  </data>
+  <data name="OCENA" xml:space="preserve">
+    <value>OCENA</value>
+  </data>
+  <data name="Ocena:" xml:space="preserve">
+    <value>Ocena: </value>
+  </data>
+  <data name="Odustani" xml:space="preserve">
+    <value>Odustani</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Otvori</value>
+  </data>
+  <data name="Polaganje" xml:space="preserve">
+    <value>Polaganje</value>
+  </data>
+  <data name="Polozeni" xml:space="preserve">
+    <value>Položeni</value>
+  </data>
+  <data name="Poništi ocenu" xml:space="preserve">
+    <value>Poništi ocenu</value>
+  </data>
+  <data name="Postavi za sefa" xml:space="preserve">
+    <value>Postavi za šefa</value>
+  </data>
+  <data name="Potvrdi" xml:space="preserve">
+    <value>Potvrdi</value>
+  </data>
+  <data name="Predmeti" xml:space="preserve">
+    <value>Predmeti</value>
+  </data>
+  <data name="Predmeti:" xml:space="preserve">
+    <value>Predmeti:</value>
+  </data>
+  <data name="PredmetiDodavanje" xml:space="preserve">
+    <value>PredmetiDodavanje</value>
+  </data>
+  <data name="PredmetIzmena" xml:space="preserve">
+    <value>PredmetIzmena</value>
+  </data>
+  <data name="PREZIME" xml:space="preserve">
+    <value>PREZIME</value>
+  </data>
+  <data name="Prezime1" xml:space="preserve">
+    <value>Prezime</value>
+  </data>
+  <data name="Profesor" xml:space="preserve">
+    <value>Profesor</value>
+  </data>
+  <data name="Profesori" xml:space="preserve">
+    <value>Profesori</value>
+  </data>
+  <data name="ProfesoriDodavanje" xml:space="preserve">
+    <value>ProfesoriDodavanje</value>
+  </data>
+  <data name="ProfesorIzmena" xml:space="preserve">
+    <value>ProfesorIzmena</value>
+  </data>
+  <data name="PROSEK" xml:space="preserve">
+    <value>PROSEK</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Sačuvaj</value>
+  </data>
+  <data name="SEMESTAR" xml:space="preserve">
+    <value>SEMESTAR</value>
+  </data>
+  <data name="Semestar1" xml:space="preserve">
+    <value>Semestar</value>
+  </data>
+  <data name="Serbian" xml:space="preserve">
+    <value>Srpski</value>
+  </data>
+  <data name="SIFRA PREDMETA" xml:space="preserve">
+    <value>ŠIFRA PREDMETA</value>
+  </data>
+  <data name="Sifra predmeta1" xml:space="preserve">
+    <value>Šifra predmeta</value>
+  </data>
+  <data name="Sifra:" xml:space="preserve">
+    <value>Šifra: </value>
+  </data>
+  <data name="STATUS" xml:space="preserve">
+    <value>STATUS</value>
+  </data>
+  <data name="StudentDodavanje" xml:space="preserve">
+    <value>StudentDodavanje</value>
+  </data>
+  <data name="Studenti" xml:space="preserve">
+    <value>Studenti</value>
+  </data>
+  <data name="StudentIzmena" xml:space="preserve">
+    <value>StudentIzmena</value>
+  </data>
+  <data name="Trenutna godina studija" xml:space="preserve">
+    <value>Trenutna godina studija</value>
+  </data>
+  <data name="Ukloni predmet" xml:space="preserve">
+    <value>Ukloni predmet</value>
+  </data>
+  <data name="Ulica" xml:space="preserve">
+    <value>Ulica</value>
+  </data>
+  <data name="UnosOcene" xml:space="preserve">
+    <value>UnosOcene</value>
+  </data>
+  <data name="ZVANJE" xml:space="preserve">
+    <value>ZVANJE</value>
+  </data>
+  <data name="Zvanje1" xml:space="preserve">
+    <value>Zvanje</value>
+  </data>
+</root>

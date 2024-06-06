@@ -1,0 +1,51 @@
+﻿<Window x:Class="projekatWPF.View.UnosOcene"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:projekatWPF.View"
+        xmlns:ns="clr-namespace:projekatWPF.Localization"
+        mc:Ignorable="d"
+        Title="{ns:Loc UnosOcene}" Height="600" Width="450" WindowStartupLocation="CenterOwner">
+    <Window.Resources>
+        <ControlTemplate x:Key="ValidationTemplate">
+            <StackPanel>
+                <!-- Placeholder for the TextBox itself -->
+                <AdornedElementPlaceholder x:Name="textBox" />
+                <TextBlock Text="{Binding [0].ErrorContent}" Foreground="Red" />
+            </StackPanel>
+        </ControlTemplate>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Content="{ns:Loc Sifra: }" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0"/>
+        <Label Content="{ns:Loc Naziv: }" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1"/>
+        <Label Content="{ns:Loc Ocena: }" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2"/>
+        <Label Content="{ns:Loc Datum: }" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3"/>
+        <TextBox x:Name="tSifra" Text="{Binding Path=Izabrani_predmet.Sifra, UpdateSourceTrigger = PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" Grid.Column="1" HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Center" Width="150" Height="30"/>
+        <TextBox x:Name="tNaziv" Text="{Binding Path=Izabrani_predmet.Naziv, UpdateSourceTrigger = PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Center" Width="150" Height="30"/>
+        <ComboBox x:Name="tOcena" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center" Width="150" Height="30" 
+                  Text="{Binding Path=Ocena.Vrednost, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" 
+                  SelectionChanged="tOcena_SelectionChanged">
+            <ComboBoxItem Content= "6"></ComboBoxItem>
+            <ComboBoxItem Content= "7"></ComboBoxItem>
+            <ComboBoxItem Content= "8"></ComboBoxItem>
+            <ComboBoxItem Content= "9"></ComboBoxItem>
+            <ComboBoxItem Content= "10"></ComboBoxItem>
+        </ComboBox>
+        <DatePicker x:Name="tDatum" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Left" VerticalAlignment="Center" Width="150" Height="30" SelectedDateChanged="tDatum_SelectedDateChanged"
+                    SelectedDate ="{Binding Path=Ocena.DatumPom, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Validation.ErrorTemplate="{StaticResource ValidationTemplate}"/>
+        <Button x:Name="dPotvrdi" Content="{ns:Loc Potvrdi}" HorizontalAlignment="Right" Margin="0,0,30,0"  Grid.Row="4" VerticalAlignment="Center" Width="120" Click="dPotvrdi_Click" Height="30"/>
+        <Button x:Name="dOdustani" Content="{ns:Loc Odustani}" HorizontalAlignment="Left" Margin="30,0,0,0"  Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" Width="120" Height="30" Click="dOdustani_Click"/>
+    </Grid>
+</Window>

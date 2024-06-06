@@ -1,0 +1,3 @@
+Rapaic|Milan|06/05/1977|Sime Milosevica,10,Novi Sad,Srbija|+381642537891|Nesto,5,Nesto,Nesto|465783461|redovan profesor|rapaja@gmail.com|15|123,223
+Ralevic|Nebojsa|22/06/1966|Marka Kraljevica,55,Beograd,Srbija|0637169456|Marka Kraljevica,138,Kraljevo,Srbija|986573175|dipl. mat|rale@gmail.com|23|579
+Pavlovic|Milos|01/01/2001|nekaSt,12,nekaSt,nekaSt|063812472|nekaKancelarija,10,nekaKancelarija,nekaKancelarija|112233445|Vanredni profesor|profesorovic@hotmail.com|15|

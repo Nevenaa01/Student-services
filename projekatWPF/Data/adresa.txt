@@ -1,0 +1,18 @@
+Dr Sime Milosevica|4|Novi Sad|Srbija
+Šabačkih đaka|9|Bijeljina|Bosna i Hercegovina
+Bulevar Džordža Vašingtona|3|Podgorica|Crna Gora
+Bulevar Oslobođenja|47|Novi Sad|Srbija
+Dunavska|21|Novi Sad|Srbija
+Vojvode Sindjelića|55|Trebinje|Bosna i Hercegovina
+Izvorska|3|Subotica|Srbija
+Dositeja Obradovića|6|Novi Sad|Srbija
+Dositeja Obradovića|16|Novi Pazar|Srbija
+Dimitrija Tucovića|9|Kraljevo|Srbija
+Bulevar Oslobođenja|19|Novi Sad|Srbija
+Ivo Lole Ribar|23|Bačko Petrovo Selo|Srbija
+Omladinska|16|Beograd|Srbija
+Cara Dušana|3|Kragujevac|Srbija
+Mikulići|142e|Zagreb|Hrvatska
+Antunovac|9|Zagreb|Hrvatska
+Ulica Ivana Šibla|12|Sarajevo|Bosna i Hercegovina
+Ulica Ivana Šibla|15|Sarajevo|Bosna i Hercegovina

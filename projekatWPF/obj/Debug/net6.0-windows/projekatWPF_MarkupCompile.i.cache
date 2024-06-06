@@ -1,0 +1,20 @@
+﻿projekatWPF
+1.0.0.0
+
+winexe
+C#
+.cs
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\
+projekatWPF
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+E:\projects\Student services\projekatWPF\App.xaml
+11-1816957401
+9-415688914
+48-56355763
+194-1976662911
+MainWindow.xaml;View\DodavanjePredmetaProfesoru.xaml;View\DodavanjePredmetaStudentu.xaml;View\DodavanjeProfesoraPredmetu.xaml;View\PredmetiDodavanje.xaml;View\PredmetIzmena.xaml;View\ProfesoriDodavanje.xaml;View\ProfesorIzmena.xaml;View\StudentDodavanje.xaml;View\StudentIzmena.xaml;View\UnosOcene.xaml;
+
+False
+

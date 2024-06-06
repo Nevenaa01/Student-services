@@ -1,0 +1,151 @@
+﻿<Window x:Name="glavni" x:Class="projekatWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:projekatWPF"
+        xmlns:ns="clr-namespace:projekatWPF.Localization"
+        mc:Ignorable="d"
+        Title="Studentska služba" Height="450" Width="800" Loaded="Window_Loaded" KeyDown="glavni_KeyDown">
+    <DockPanel>
+        <Menu x:Name="meni" DockPanel.Dock="Top" Height="20" VerticalAlignment="Top">
+            <MenuItem Header="{ns:Loc File}">
+                <MenuItem Header="{ns:Loc New}" Click="MenuItem_Click_New" InputGestureText="Ctrl + N">
+                    <MenuItem.Icon>
+                        <Image Source="Images/plus.bmp"></Image>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="{ns:Loc Save}" InputGestureText="Ctrl + S" Click="MenuItem_Click_Save">
+                    <MenuItem.Icon>
+                        <Image Source="Images/save.png"></Image>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="{ns:Loc Open}">
+                    <MenuItem.Icon>
+                        <Image Source="Images/open.jpg"></Image>
+                    </MenuItem.Icon>
+                    <MenuItem Header="{ns:Loc Studenti}" Click="MenuItem_Click_1"></MenuItem>
+                    <MenuItem Header="{ns:Loc Profesori}" Click="MenuItem_Click_2"></MenuItem>
+                    <MenuItem Header="{ns:Loc Predmeti}" Click="MenuItem_Click_3"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="{ns:Loc Close}" Click="MenuItem_Click_Close" InputGestureText="Ctrl + C">
+                    <MenuItem.Icon>
+                        <Image Source="Images/close.jpg"></Image>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="{ns:Loc Edit}">
+                <MenuItem Header="{ns:Loc Edit}" Click="MenuItem_Click_Edit" InputGestureText="Ctrl + E">
+                    <MenuItem.Icon>
+                        <Image Source="Images/olovka.bmp"></Image>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="{ns:Loc Delete}" Click="MenuItem_Click_Delete" InputGestureText="Ctrl + D">
+                    <MenuItem.Icon>
+                        <Image Source="Images/kantaprava.bmp"></Image>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="{ns:Loc Help}">
+                <MenuItem Header="{ns:Loc About}" Click="MenuItem_Click_About" InputGestureText="Ctrl + A">
+                    <MenuItem.Icon>
+                        <Image Source="Images/information.png"></Image>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="{ns:Loc Localization}">
+                <MenuItem Header="{ns:Loc Serbian}" Click="MenuItem_Click_Serbian" InputGestureText="Ctrl + R"></MenuItem>
+                <MenuItem Header="{ns:Loc English}" Click="MenuItem_Click_English" InputGestureText="Ctrl + G"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <ToolBar x:Name="tulbar" Height="30" DockPanel.Dock="Top" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+            <DockPanel x:Name="doktul" Width="757">
+                <Button x:Name="plus" HorizontalAlignment="Left" Height="20" Width="20" Click="plus_Click" RenderTransformOrigin="0.5,0.5">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Images/plus.bmp"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="olovka" Height="20" Width="20" Margin="5,0,0,0" Click="olovka_Click">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Images/olovka.bmp"/>
+                    </Button.Background>
+                </Button>
+                <Button Width="20" Height="20" Margin="5,0,0,0" Click="Button_Click_Delete">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Images/kantaprava.bmp"/>
+                    </Button.Background>
+                </Button>
+                <Button Width="20" Height="20" Margin="5,0,0,0" DockPanel.Dock="Right" Click="Button_Click">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Images/lupa.bmp"/>
+                    </Button.Background>
+                </Button>
+                <TextBox Name="tSearchBar" Height="20" Width="200" DockPanel.Dock="Right" TextChanged="tSearchBar_TextChanged"/>
+                <Button BorderThickness="0,0,0,0" DockPanel.Dock="Right" Height="0" Width="0"/>
+            </DockPanel>
+
+        </ToolBar>
+        <TabControl x:Name="tabovi" Width="800" Height="375" DockPanel.Dock="Top" SelectionChanged="tabovi_SelectionChanged">
+            <TabItem x:Name="Studenti" Header="Studenti">
+                <DataGrid x:Name="studdata" 
+                  ItemsSource="{Binding Students, UpdateSourceTrigger=PropertyChanged}"
+                  SelectedItem="{Binding SelectedStudent, UpdateSourceTrigger=PropertyChanged}"
+                          Margin="10,0,10,0" Height="335" Width="775" 
+                          IsReadOnly="True"
+                          CanUserResizeColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" CanUserResizeRows="False" 
+                          ScrollViewer.VerticalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Disabled" AutoGenerateColumns="False">
+                    <DataGrid.Resources>
+                        <Style TargetType="DataGridColumnHeader">
+                            <EventSetter Event="Click" Handler="columnHeader_Click"></EventSetter>
+                        </Style>
+                    </DataGrid.Resources>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="{ns:Loc INDEX}" Binding="{Binding BrIndeksa}" CanUserResize="False"  Width="75"/>
+                        <DataGridTextColumn Header="{ns:Loc IME}" Binding="{Binding Ime}" CanUserResize="False" Width="150"/>
+                        <DataGridTextColumn Header="{ns:Loc PREZIME}" Binding="{Binding Prezime}" CanUserResize="False" Width="150"/>
+                        <DataGridTextColumn Header="{ns:Loc GODINA STUDIJA}" Binding="{Binding TrenutnaGodinaStudija}" Width="150"/>
+                        <DataGridTextColumn Header="{ns:Loc STATUS}" Binding="{Binding Status}" Width="150"/>
+                        <DataGridTextColumn Header="{ns:Loc PROSEK}" Binding="{Binding ProsecnaOcena}" Width="150"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem x:Name="Profesori" Header="{ns:Loc Profesori}">
+                <DataGrid x:Name="profdata" Margin="10,0,10,0" Height="335" Width="775" AutoGenerateColumns="False" CanUserReorderColumns="False" CanUserResizeColumns="False" 
+                           CanUserAddRows="False" 
+                          CanUserDeleteRows="False"
+                          IsReadOnly="True"
+                          ItemsSource="{Binding Profesors, UpdateSourceTrigger=PropertyChanged}"
+                  SelectedItem="{Binding SelectedProfesor, UpdateSourceTrigger=PropertyChanged}">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="{ns:Loc IME}" Binding="{Binding Ime}" CanUserResize="False" Width="150"/>
+                        <DataGridTextColumn Header="{ns:Loc PREZIME}" Binding="{Binding Prezime}" CanUserResize="False" Width="150"/>
+                        <DataGridTextColumn Header="{ns:Loc ZVANJE}" Binding="{Binding Zvanje}" CanUserResize="False" Width="150"/>
+                        <DataGridTextColumn Header="{ns:Loc EMAIL}" Binding="{Binding Email}" CanUserResize="False" Width="150"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+            </TabItem>
+            <TabItem x:Name="Predmeti" Header="{ns:Loc Predmeti}">
+                <DataGrid x:Name="preddata" Margin="10,0,10,0" Height="335" Width="775" 
+                          ItemsSource="{Binding Predmets, UpdateSourceTrigger=PropertyChanged}"
+                          SelectedItem="{Binding SelectedPredmet, UpdateSourceTrigger=PropertyChanged}" AutoGenerateColumns="False"
+                          IsReadOnly="True"
+                           CanUserAddRows="False" CanUserDeleteRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="{ns:Loc SIFRA PREDMETA}" Binding="{Binding Sifra}" CanUserResize="False" Width="150"/>
+                        <DataGridTextColumn Header="{ns:Loc NAZIV PREDMETA}" Binding="{Binding Naziv}" CanUserResize="False" Width="150"/>
+                        <DataGridTextColumn Header="{ns:Loc SEMESTAR}" Binding="{Binding Semestar}" CanUserResize="False" Width="150"/>
+                        <DataGridTextColumn Header="{ns:Loc ESPB BODOVI}" Binding="{Binding ESPB}" CanUserResize="False" Width="150"/>
+                        <DataGridTextColumn Header="{ns:Loc GODINA IZVODJENJA}" Binding="{Binding GodinaIzvodjenja}" CanUserResize="False" Width="150"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+
+        </TabControl>
+        <StatusBar x:Name="status" Width="800" Height="20" VerticalAlignment="Bottom" >
+            <StatusBarItem HorizontalAlignment="Left" Name="ssluzba" Content="Studentska služba -"/>
+            <StatusBarItem HorizontalAlignment="Left" Name = "StatusBarTab" Content="Studenti"/>
+            <StatusBarItem HorizontalAlignment="Right" Name ="StatusBarDatumIVreme" Content="%TIME%"/>
+        </StatusBar>
+    </DockPanel>
+</Window>

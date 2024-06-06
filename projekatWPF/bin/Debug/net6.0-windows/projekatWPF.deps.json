@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "projekatWPF/1.0.0": {
+        "runtime": {
+          "projekatWPF.dll": {}
+        },
+        "resources": {
+          "en-US/projekatWPF.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "projekatWPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,27 @@
+﻿<Window x:Class="projekatWPF.View.DodavanjeProfesoraPredmetu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:projekatWPF.View"
+        xmlns:ns="clr-namespace:projekatWPF.Localization"
+        mc:Ignorable="d"
+        Title="{ns:Loc DodavanjeProfesoraPredmetu}" Height="450" Width="400"  WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="350"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ListBox HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0" Grid.ColumnSpan="2" Width="350" Height="300" 
+                 ItemsSource="{Binding Profesori}" SelectedValue="{Binding SelectedProfesor}" 
+                  DisplayMemberPath="ImePrezime">
+        </ListBox>
+        <Button Content="{ns:Loc Dodaj}" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Width="80" Height="30" Click="Button_Click" />
+        <Button Content="{ns:Loc Odustani}" HorizontalAlignment="Center"  Grid.Row="1" VerticalAlignment="Center" Grid.Column="1" Width="80" Height="30" Click="Button_Click_1"/>
+    </Grid>
+</Window>
+

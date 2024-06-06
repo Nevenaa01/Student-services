@@ -1,0 +1,9 @@
+p1|Algoritmi i strukture podataka|Zimski|1|123456789|7|RA01/2020,RA2/2020,RA03/2020|RA156/2022,RA87/2015
+p2|OISISI|Letnji|3|987654321|8|RA87/2015,RA02/2020|RA01/2020,RA03/2020
+p3|Matematička analiza II|Letnji|2|123454311|9|RA01/2020,RA03/2020|RA02/2020
+p4|Modeliranje i simulacija sistema|Letnji|2|123454321|9||RA201/2017
+p5|Baze podataka 1|Zimski|3|567896500|8|RA87/2015|
+p6|Baze podataka 2|Zimski|4|567896500|5||
+p7|Sistemi automatskog upravljanja|Letnji|2|007543594|8|RA87/2015|
+p8|Osnove objektnog programiranja|Letnji|1|123454321|6|RA156/2022|RA03/2020,RA201/2017
+p9|Arhitektura računara|Letnji|1|123454321|9||RA156/2022

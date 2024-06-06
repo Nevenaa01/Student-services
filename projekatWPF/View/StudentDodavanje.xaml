@@ -1,0 +1,106 @@
+﻿<Window x:Class="projekatWPF.View.StudentDodavanje"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:projekatWPF.View"
+        xmlns:ns="clr-namespace:projekatWPF.Localization"
+        mc:Ignorable="d"
+        Title="{ns:Loc StudentDodavanje}" Height="646" Width="770" WindowStartupLocation="CenterOwner" Loaded="Window_Loaded">
+    <Window.Resources>
+        <ControlTemplate x:Key="ValidationTemplate">
+            <StackPanel>
+                <!-- Placeholder for the TextBox itself -->
+                <AdornedElementPlaceholder x:Name="textBox" />
+                <TextBlock Text="{Binding [0].ErrorContent}" Foreground="Red" />
+            </StackPanel>
+        </ControlTemplate>
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="550"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="0" Width="700" Height="550">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Height="30" Content="{ns:Loc Ime1}"/>
+            <Label Grid.Row="1" Grid.Column="0" Height="30" Content="{ns:Loc Prezime1}"/>
+            <Label Grid.Row="2" Grid.Column="0" Height="30" Content="{ns:Loc Datum rođenja}"/>
+
+            <Label Grid.Row="2" Grid.Column="2" Height="30" HorizontalAlignment="Center" Content="{ns:Loc Adresa stanovanja:}"/>
+            <Label Grid.Row="3" Grid.Column="2" Height="30" HorizontalAlignment="Right" Content="{ns:Loc Ulica}"/>
+            <Label Grid.Row="4" Grid.Column="2" Height="30" HorizontalAlignment="Right" Content="{ns:Loc Broj}"/>
+            <Label Grid.Row="5" Grid.Column="2" Height="30" HorizontalAlignment="Right" Content="{ns:Loc Grad}"/>
+            <Label Grid.Row="6" Grid.Column="2" Height="30" HorizontalAlignment="Right" Content="{ns:Loc Država}"/>
+
+            <Label Grid.Row="3" Grid.Column="0" Height="30" Content="{ns:Loc Broj telefona}"/>
+            <Label Grid.Row="4" Grid.Column="0" Height="30" Content="{ns:Loc Email adresa}"/>
+            <Label Grid.Row="5" Grid.Column="0" Height="30" Content="{ns:Loc Broj indeksa}"/>
+            <Label Grid.Row="6" Grid.Column="0" Height="30" Content="{ns:Loc Godina upisa}"/>
+            <Label Grid.Row="7" Grid.Column="0" Height="30" Content="{ns:Loc Trenutna godina studija}"/>
+            <Label Grid.Row="8" Grid.Column="0" Height="30" Content="{ns:Loc Način finansiranja}"/>
+
+            <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding Path=Student.Ime, UpdateSourceTrigger = PropertyChanged, ValidatesOnDataErrors=True}"
+                     Height="30" Name ="tIme" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" TextChanged="tIme_TextChanged"></TextBox>
+            <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Path=Student.Prezime, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                     Height="30" Name ="tPrezime" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" TextChanged="tPrezime_TextChanged"></TextBox>
+            <DatePicker Grid.Row="2" Grid.Column="1" SelectedDate ="{Binding Path=Student.DatumPom, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                        Height="30" Name ="tDatumRodjenja" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" SelectedDateChanged="tDatumRodjenja_SelectedDateChanged"></DatePicker>
+            
+           
+            <TextBox Grid.Row="3" Grid.Column="3" Text="{Binding Path=Student.Ulica, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                     Height="30" Name ="tUlica" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" TextChanged="tUlica_TextChanged"></TextBox>
+            <TextBox Grid.Row="4" Grid.Column="3" Text="{Binding Path=Student.BrojUlice, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                     Height="30" Name ="tBrojUlice" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" TextChanged="tBrojUlice_TextChanged"></TextBox>
+            <TextBox Grid.Row="5" Grid.Column="3" Text="{Binding Path=Student.Grad, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                     Height="30" Name ="tGrad" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" TextChanged="tGrad_TextChanged"></TextBox>
+            <TextBox Grid.Row="6" Grid.Column="3" Text="{Binding Path=Student.Drzava, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                     Height="30" Name ="tDrzava" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" TextChanged="tDrzava_TextChanged"></TextBox>
+            
+         
+            <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding Path=Student.Telefon, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                     Height="30" Name ="tTelefon" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" TextChanged="tTelefon_TextChanged"></TextBox>
+            <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding Path=Student.Email, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                     Height="30" Name ="tEmail" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" TextChanged="tEmail_TextChanged"></TextBox>
+            <TextBox Grid.Row="5" Grid.Column="1" Text="{Binding Path=Student.BrIndeksa, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                     Height="30" Name ="tBrIndeksa" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" TextChanged="tBrIndeksa_TextChanged"></TextBox>
+            <TextBox Grid.Row="6" Grid.Column="1" Text="{Binding Path=Student.GodinaUpisa, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                     Height="30" Name ="tGodinaUpisa" Validation.ErrorTemplate="{StaticResource ValidationTemplate}" TextChanged="tGodinaUpisa_TextChanged"></TextBox>
+            <ComboBox Grid.Row="7" Grid.Column="1" Text="{Binding Path=Student.TrenutnaGodinaStudija, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                     Height="30" Name ="tTrenutnaGodinaStudija" Validation.ErrorTemplate="{StaticResource ValidationTemplate}">
+                <ComboBoxItem Content= "I (prva)"></ComboBoxItem>
+                <ComboBoxItem Content= "II (druga)"></ComboBoxItem>
+                <ComboBoxItem Content= "III (treća)"></ComboBoxItem>
+                <ComboBoxItem Content= "IV (četvrta)"></ComboBoxItem>
+                <ComboBoxItem Content= "V (peta)"></ComboBoxItem>
+            </ComboBox>
+            <ComboBox Grid.Row="8" Grid.Column="1" Text="{Binding Path=Student.NacinFinansiranja, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                     Height="30" Name ="tStatus" Validation.ErrorTemplate="{StaticResource ValidationTemplate}">
+                <ComboBoxItem Content= "BUDŽET"></ComboBoxItem>
+                <ComboBoxItem Content= "SAMOFINANSIRANJE"></ComboBoxItem>
+            </ComboBox>
+        </Grid>
+        <WrapPanel Grid.Row="1" HorizontalAlignment="Center">
+            <Button Name ="bPotvrdi" Content="{ns:Loc Potvrdi}" IsDefault="True" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20, 5, 20, 5" Height="27" Width="67" Click="Button_Click_1"/>
+            <Button Content="{ns:Loc Odustani}" IsCancel="True" HorizontalAlignment="Left" VerticalAlignment="Center" Click="Button_Click" Height="27" Width="72"/>
+        </WrapPanel>
+    </Grid>
+</Window>

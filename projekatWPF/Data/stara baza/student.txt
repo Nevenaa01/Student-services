@@ -1,0 +1,5 @@
+Peric|Pera|14/11/2001|Vojvode Putnika,19,Kraljevo,Srbija|0674219874|random@gmail.com|RA01/2020|2020|III (treća)|B|9|223B,963GG,123A|123
+Markovic|Marko|05/01/2001|nekaSt,5,nekaSt,nekaSt|0697419785|marekralj@gmail/com|RA02/2020|2020|III (treća)|B|8|223,579|123
+Oroz|Savo|17/01/1933|Neka Ulica,9,Neki Grad,Nekadrzava|+38165123567|savooroz@gmail.com|RA67/2015|2015|IV (četvrta)|B|10|223,123|579
+Seratlic|Mirko|20/10/2002|Nekast,1a,Nekast,Nekast|0613451864|randomic@gmail.com|RA01/2021|2021|III (treća)|B|7|579,963|223
+Lukovic|Marko|09/11/2003|Njegoseva,26,Novi Sad,Srbija|0621574822|ab@gmail.com|RA55/2022|2022|II (druga)|S|0|963,223,123|

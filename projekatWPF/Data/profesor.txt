@@ -1,0 +1,6 @@
+Mitrović-Petrović|Bogosava|12/12/1965|Bulevar Oslobođenja,47,Novi Sad,Srbija|+381642537891|Dositeja Obradovića,6,Novi Sad,Srbija|123456789|REDOVNI_PROFESOR|bogosava@mailinator.com|19|p1
+Joksimović|Janojla|04/08/1980|Dunavska,21,Novi Sad,Srbija|0637169456|Dositeja Obradovića,6,Novi Sad,Srbija|987654321|REDOVNI_PROFESOR|j.janojla@mailinator.com|20|p2
+Radošević|Agaton|03/09/1988|Vojvode Sindjelića,55,Trebinje,Bosna i Hercegovina|063812472|Dositeja Obradovića,6,Novi Sad,Srbija|123454321|DOCENT|agaton@mailinator.com|10|p4,p8,p9
+Perić|Perun|25/07/1976|Izvorska,3,Subotica,Srbija|0659713527|Dositeja Obradovića,6,Novi Sad,Srbija|123454311|VANREDNI_PROFESOR|perun@mailinator.com|15|p3
+Rapaić|Milan|01/12/1985|Mikulići,142e,Zagreb,Hrvatska|065375695|Antunovac,9,Zagreb,Hrvatska|007543594|VANREDNI_PROFESOR|rapaja@gmail.com|5|p7
+Dimitrieski|Vladimir|25/07/1980|Ulica Ivana Šibla,12,Sarajevo,Bosna i Hercegovina|+38769567899|Ulica Ivana Šibla,15,Sarajevo,Bosna i Hercegovina|567896500|REDOVNI_PROFESOR|dimitrieski@uns.ac.rs|2|p6,p5

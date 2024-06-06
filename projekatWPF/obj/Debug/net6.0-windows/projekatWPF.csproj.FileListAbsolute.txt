@@ -1,0 +1,143 @@
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\bin\Debug\net6.0-windows\projekatWPF.exe
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\bin\Debug\net6.0-windows\projekatWPF.deps.json
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\bin\Debug\net6.0-windows\projekatWPF.runtimeconfig.json
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\bin\Debug\net6.0-windows\projekatWPF.dll
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\bin\Debug\net6.0-windows\projekatWPF.pdb
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.csproj.AssemblyReference.cache
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\Layouts\Katedre.g.cs
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\Layouts\Predmeti.g.cs
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\Layouts\Profesori.g.cs
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\Layouts\Studenti.g.cs
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\MainWindow.g.cs
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\App.g.cs
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF_MarkupCompile.cache
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF_MarkupCompile.lref
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\Layouts\Katedre.baml
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\Layouts\Predmeti.baml
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\Layouts\Profesori.baml
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\Layouts\Studenti.baml
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\MainWindow.baml
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.g.resources
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.GeneratedMSBuildEditorConfig.editorconfig
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.AssemblyInfoInputs.cache
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.AssemblyInfo.cs
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.csproj.CoreCompileInputs.cache
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.dll
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\refint\projekatWPF.dll
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.pdb
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.genruntimeconfig.cache
+F:\OISISI_projekat\projekat\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\ref\projekatWPF.dll
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\bin\Debug\net6.0-windows\projekatWPF.exe
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\bin\Debug\net6.0-windows\projekatWPF.deps.json
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\bin\Debug\net6.0-windows\projekatWPF.runtimeconfig.json
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\bin\Debug\net6.0-windows\projekatWPF.dll
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\bin\Debug\net6.0-windows\projekatWPF.pdb
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.csproj.AssemblyReference.cache
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\MainWindow.g.cs
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\App.g.cs
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF_MarkupCompile.cache
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF_MarkupCompile.lref
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\MainWindow.baml
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.g.resources
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.GeneratedMSBuildEditorConfig.editorconfig
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.AssemblyInfoInputs.cache
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.AssemblyInfo.cs
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.csproj.CoreCompileInputs.cache
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.dll
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\refint\projekatWPF.dll
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.pdb
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.genruntimeconfig.cache
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\ref\projekatWPF.dll
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\View\PredmetiDodavanje.g.cs
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\View\ProfesoriDodavanje.g.cs
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\View\StudentDodavanje.g.cs
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\View\PredmetiDodavanje.baml
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\View\ProfesoriDodavanje.baml
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\View\StudentDodavanje.baml
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\View\StudentIzmena.g.cs
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\View\StudentIzmena.baml
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\View\PredmetIzmena.g.cs
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\View\ProfesorIzmena.g.cs
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\View\PredmetIzmena.baml
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\View\ProfesorIzmena.baml
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF_Content.g.cs
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\bin\Debug\net6.0-windows\Images\kanta.bmp
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\bin\Debug\net6.0-windows\Images\close.jpg
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\bin\Debug\net6.0-windows\Images\kantaprava.bmp
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\bin\Debug\net6.0-windows\Images\lupa.bmp
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\bin\Debug\net6.0-windows\Images\olovka.bmp
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\bin\Debug\net6.0-windows\Images\open.jpg
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\bin\Debug\net6.0-windows\Images\plus.bmp
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\bin\Debug\net6.0-windows\Images\save.png
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\bin\Debug\net6.0-windows\Images\information.png
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\View\DodavanjePredmetaProfesoru.g.cs
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\View\DodavanjePredmetaProfesoru.baml
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\View\DodavanjePredmetaStudentu.g.cs
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\View\DodavanjePredmetaStudentu.baml
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\View\UnosOcene.g.cs
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\View\UnosOcene.baml
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\View\DodavanjeProfesoraPredmetu.g.cs
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\View\DodavanjeProfesoraPredmetu.baml
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\bin\Debug\net6.0-windows\en-US\projekatWPF.resources.dll
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.Properties.Resources.resources
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.Properties.Resources.en-US.resources
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.csproj.GenerateResource.cache
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\en-US\projekatWPF.resources.dll
+G:\3. godina\1. semestar\OISISI\sluzba\projekat\projekatWPF\projekatWPF\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\projects\Student services\projekatWPF\bin\Debug\net6.0-windows\Images\close.jpg
+E:\projects\Student services\projekatWPF\bin\Debug\net6.0-windows\Images\information.png
+E:\projects\Student services\projekatWPF\bin\Debug\net6.0-windows\Images\kanta.bmp
+E:\projects\Student services\projekatWPF\bin\Debug\net6.0-windows\Images\kantaprava.bmp
+E:\projects\Student services\projekatWPF\bin\Debug\net6.0-windows\Images\lupa.bmp
+E:\projects\Student services\projekatWPF\bin\Debug\net6.0-windows\Images\olovka.bmp
+E:\projects\Student services\projekatWPF\bin\Debug\net6.0-windows\Images\open.jpg
+E:\projects\Student services\projekatWPF\bin\Debug\net6.0-windows\Images\plus.bmp
+E:\projects\Student services\projekatWPF\bin\Debug\net6.0-windows\Images\save.png
+E:\projects\Student services\projekatWPF\bin\Debug\net6.0-windows\projekatWPF.exe
+E:\projects\Student services\projekatWPF\bin\Debug\net6.0-windows\projekatWPF.deps.json
+E:\projects\Student services\projekatWPF\bin\Debug\net6.0-windows\projekatWPF.runtimeconfig.json
+E:\projects\Student services\projekatWPF\bin\Debug\net6.0-windows\projekatWPF.dll
+E:\projects\Student services\projekatWPF\bin\Debug\net6.0-windows\projekatWPF.pdb
+E:\projects\Student services\projekatWPF\bin\Debug\net6.0-windows\en-US\projekatWPF.resources.dll
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.csproj.AssemblyReference.cache
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\View\DodavanjePredmetaProfesoru.g.cs
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\View\DodavanjePredmetaStudentu.g.cs
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\View\DodavanjeProfesoraPredmetu.g.cs
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\View\PredmetiDodavanje.g.cs
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\View\PredmetIzmena.g.cs
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\View\ProfesoriDodavanje.g.cs
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\View\ProfesorIzmena.g.cs
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\View\StudentDodavanje.g.cs
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\View\StudentIzmena.g.cs
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\View\UnosOcene.g.cs
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\App.g.cs
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\projekatWPF_Content.g.cs
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\projekatWPF_MarkupCompile.cache
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\projekatWPF_MarkupCompile.lref
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\MainWindow.baml
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\View\DodavanjePredmetaProfesoru.baml
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\View\DodavanjePredmetaStudentu.baml
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\View\DodavanjeProfesoraPredmetu.baml
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\View\PredmetiDodavanje.baml
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\View\PredmetIzmena.baml
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\View\ProfesoriDodavanje.baml
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\View\ProfesorIzmena.baml
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\View\StudentDodavanje.baml
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\View\StudentIzmena.baml
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\View\UnosOcene.baml
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.g.resources
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.Properties.Resources.resources
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.Properties.Resources.en-US.resources
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.csproj.GenerateResource.cache
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.AssemblyInfoInputs.cache
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.AssemblyInfo.cs
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.csproj.CoreCompileInputs.cache
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\en-US\projekatWPF.resources.dll
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.dll
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\refint\projekatWPF.dll
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.pdb
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\projekatWPF.genruntimeconfig.cache
+E:\projects\Student services\projekatWPF\obj\Debug\net6.0-windows\ref\projekatWPF.dll
